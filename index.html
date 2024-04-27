@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Inscrições, Dom Macário, Cursos Gratuitos, 2024">
+    <meta name="Author" content="Amanda Silva Brito">
+    <title>Dom Macário</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" media="screen" />
+</head>
+
+<body>
+    <header>
+        <div id="logo" name="logo-fundação">
+            <img src="image/DOM MACARIO.jfif" alt="Brasão" width="80" height="90">
+        </div>
+        <div id="title" name="title-main">
+            <h1>Casa Dom Macário</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="https://www.casadommacario.org.br/">Home</a></li>
+                <li><a href="https://www.casadommacario.org.br/projetos/">Sobre</a></li>
+                <li><a href="#">Fundação</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="fundo-creme">
+        <section id="text" name="text">
+            <h1>Inscrições Abertas</h1>
+            <h2>2º Semestre 2024</h2>
+            <p>Acolhimento, estudo, orientação, fortalecimento de vínculos. Isso é o Dom Macário!</p>
+            <blockquote>
+                <p><em>"Lugar com vida e esperança, cheio de luz e amor. Com professores incríveis que nos mostram uma
+                        base para o futuro"</em></p>
+                <p>-Mata Lúcia, convivente do curso de Operador de Computador</p>
+            </blockquote>
+            <form action="enviar.html" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" required><br>
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular" name="celular" required><br>
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade" required><br>
+                <label for="cursos">Escolha um curso</label>
+                <select id="cursos" name="Curso">
+                    <option value="Inglês">Inglês</option>
+                    <option value="Cabeleireiro">Cabeleireiro</option>
+                    <option value="Assistente Administrativo">Assistente Administrativo</option>
+                    <option value="Padaria">Padaria</option>
+                    <option value="Auxiliar de manutenção Predial e Elétrica">Auxiliar de manutenção Predial e Elétrica
+                    </option>
+                    <option value="Cozinheiro Industrial">Cozinha Industrial</option>
+                    <option value="Programador Web">Programador Web</option>
+                    <option value="Promotor de Vendas">Promotor de Vendas</option>
+                    <option value="Operador de Computador">Operador de Computador</option>
+                    <option value="Oficina de Teatro">Teatro</option>
+                    <option value="Serigrafia">Serigrafia</option>
+                    <option value="Informática-CJ">Informática-CJ (15 anos)</option>
+                    <option value="Práticas-Administrativas-CJ">Práticas Administrativas (15 anos)</option>
+                </select><br>
+                <label for="turno">Escolha um horário</label>
+                <select id="turno" name="turno">
+                    <option value="tarde">Tarde (13h às 17h)</option>
+                    <option value="noite">Noite (18h às 21:50h)</option>
+                </select><br>
+                <label for="comentarios">Comentários</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br>
+                <input type="checkbox" id="Aceitar-termos" name="Aceitar-termos" required>
+                <label for="Aceitar-termos">Aceitar termos e condições</label><br>
+                <input id="botao" name="botao" type="submit" value="Enviar">
+            </form>
+            <sub>
+                CEDESP - Centro de Desenvolvimento Social e Produtivo. Atende jovens e adultos de 15 anos a 59 anos.<br>
+                CJ - Centro para Juventude. Atende jovens de 15 anos a 17 anos e 11 meses.
+            </sub>
+        </section>
+        <aside>
+            <img src="image/Alunos/redondo.jpg" alt="Estamparia" width="500" height="440">
+        </aside>
+    </main>
+    <footer>
+        <section>
+            <address>
+                <p>Entre em contato conosco em nosso telefone: (11) 2954-2547</p>
+            </address>
+        </section>
+        <section>
+            <p>&copy; 2024 Casa Dom Macário. Todos os direitos reservados</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
